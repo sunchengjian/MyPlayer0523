@@ -13,6 +13,8 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1" />
+
+
     <RadioGroup
         android:id="@+id/rg_main"
         android:layout_width="match_parent"
@@ -21,13 +23,11 @@
         android:orientation="horizontal"
         android:padding="8dp">
 
-
         <RadioButton
             android:id="@+id/rb_local_video"
             style="@style/myStyle"
             android:drawableTop="@drawable/rb_local_video_selector"
             android:text="本地视频" />
-
 
         <RadioButton
             android:id="@+id/rb_local_audio"
@@ -35,20 +35,16 @@
             android:drawableTop="@drawable/rb_local_audio_selector"
             android:text="本地音频" />
 
-
         <RadioButton
             android:id="@+id/rb_net_audio"
             style="@style/myStyle"
             android:drawableTop="@drawable/rb_net_audio_selector"
             android:text="网络音频" />
-
-
         <RadioButton
             android:id="@+id/rb_net_video"
             style="@style/myStyle"
             android:drawableTop="@drawable/rb_net_video_selector"
             android:text="网络视频" />
-
 
     </RadioGroup>
 
